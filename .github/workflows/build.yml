@@ -1,27 +1,27 @@
 on:
-   - push
- jobs: 
+  -push
+jobs: 
   build:
    runs-on: ubuntu-latest
     steps:
      - run: echo "hello-word"
- setup:
+setup:
    runs-on: ubuntu-latest
    steps:
      - run: echo "hello-world"
- checkov:
+checkov:
    runs-on: ubuntu-latest
    steps:
      - run: echo "hello-world"
- plan:
+plan:
    runs-on: ubuntu-latest
    steps:
     - run: echo "hello-world"
- apply:
+apply:
    runs-on: ubuntu-latest
    steps:
      - run: echo "hello-world"
- eks:
+eks:
    runs-on: ubuntu-latest
    steps:
      - run: echo "hello-world"
